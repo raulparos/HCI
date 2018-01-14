@@ -9,13 +9,11 @@ html, body {
     align-items: center;
 
 }
+
 .align-middle {
-	display: table-cell;
-	vertical-align: middle;
-	margin-right: 20%;
-	margin-left: 44%;
-  margin-top: 8%;
-  margin-bottom: 5%;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 8% 20% 5% 44%;
 }
 
 body {
@@ -62,7 +60,7 @@ body {
 }
 
 .category-name-planes {
-     border-color: #5B9CBC;
+    border-color: #5B9CBC;
 }
 
 .category-name-hot-air-balloons {
