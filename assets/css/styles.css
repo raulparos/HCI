@@ -16,6 +16,25 @@ body{
 	vertical-align: middle;
 	margin-right: 20%;
 	margin-left: 44%;
-  margin-top: 8%;
-  margin-bottom: 5%;
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+.row{
+	margin-bottom: 5%;
+	margin-top: 10%;
+	height: 15%;
+}
+.customButton{
+	width: 100%;
+}
+.customDiv{
+	height: 15%;
+}
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
 }
