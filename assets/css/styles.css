@@ -1,11 +1,9 @@
 
- html,body{
- 	height: 100%;
+html, body {
+    height: 100%;
     cursor: url(../images/plane.png), auto;
 }
-body{
-	background-image: url("../images/background.png");
-}
+
 .vertical-align {
     display: flex;
     align-items: center;
@@ -19,3 +17,59 @@ body{
   margin-top: 8%;
   margin-bottom: 5%;
 }
+
+body {
+    /* Center and scale the image nicely */
+    background: url(../images/background.png) no-repeat center;
+    background-size: cover;
+}
+
+.categories {
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    color: #fff;
+}
+
+.category-hot-air-balloon {
+    background: url(../images/category_hotairballoons.png) no-repeat center;
+}
+
+.category-planes {
+    background: url(../images/category_planes.png) no-repeat center;
+}
+
+.category-rockets {
+    background: url(../images/category_rockets.png) no-repeat center;
+}
+
+.category {
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    width: 33.3333333%;
+    height: 100%;
+    font-family: 'Leckerli One', cursive;
+    font-size: 44pt;
+}
+
+.category:hover {
+    border: 10px solid rgba(0, 0, 0, 0.15);
+}
+
+.category-name {
+    border: 6px solid;
+}
+
+.category-name-planes {
+     border-color: #5B9CBC;
+}
+
+.category-name-hot-air-balloons {
+    border-color: #448E88;
+}
+
+.category-name-rockets {
+    border-color: #1E546B;
+}
+
