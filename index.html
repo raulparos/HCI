@@ -29,9 +29,45 @@
     </div>
       <div class="row">
         <div class="col-lg-offset-4 col-lg-4 customDiv" >
-            <a href="assets/puzzles/puzzle1.html" class="btn btn-warning btn-xlarge customButton" type="button">Hai sa ne jucam!</a>
+            <button class="btn btn-warning btn-xlarge customButton" type="button" data-toggle="modal" data-target="#myModal">Hai sa ne jucam!</button>
         </div>
+        <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Selecteaza un puzzle!</h4>
+      </div>
+      <div class="modal-body">
+      <div class="row customPlanes">
+           <a href="assets/puzzles/puzzle1.html" type="submit" style="border: 0; background: transparent">
+                <img src="assets/images/plane.png" width="90" height="50" alt="submit" />
+             Puzzelul cu avionul rosu.
+            </a> 
     </div>
+    <div class="row customPlanes">
+        <a href="assets/puzzles/puzzle1.html" type="submit" style="border: 0; background: transparent">
+            <img src="assets/images/category_planes.png" width="90" height="50" alt="submit" />
+         Puzzelul cu avionul plutitor.
+        </a> 
+        </div>
+        <div class="row customPlanes">
+        <a href="assets/puzzles/puzzle1.html" type="submit" style="border: 0; background: transparent">
+            <img src="assets/images/plane1.jpg" width="90" height="50" alt="submit" />
+         Puzzelul cu avionul portocaliu.
+        </a> 
+        </div>
+
+     </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Inchide</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
        
 </div>
     </body>
