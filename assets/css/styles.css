@@ -3,3 +3,19 @@
  	height: 100%;
     cursor: url(../images/plane.png), auto;
 }
+body{
+	background-image: url("../images/background.png");
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+
+}
+.align-middle {
+	display: table-cell;
+	vertical-align: middle;
+	margin-right: 20%;
+	margin-left: 44%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
