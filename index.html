@@ -4,6 +4,7 @@
         <title>Bootstrap Demo</title>
         <!-- Latest compiled and minified CSS -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/js/audio-manage-homepage.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!-- Optional theme -->
@@ -18,17 +19,28 @@
        
 <div class="container">
     <div class="row">
-        <div class="col-lg-offset-4 col-lg-4 customDiv" >
+        <div class="col-lg-offset-4 col-lg-4 customDiv" onmouseover="playClipLearn()">
             <a href="categories.html" class="btn btn-warning btn-xlarge customButton" type="button">Invata</a>
         </div>
     </div>
-      <div class="row">
-        <div class="col-lg-offset-4 col-lg-4 customDiv" >
+    <audio id="sound-for-learn">
+        <source src="assets/audio/SoundsHomepage/Invatare.mp3">
+        <source src="assets/audio/SoundsHomepage/Invatare.ogg">
+    </audio>
+
+    <div class="row">
+        <div class="col-lg-offset-4 col-lg-4 customDiv" onmouseover="playClipDeep()" >
             <button class="btn btn-warning btn-xlarge customButton " type="button">Aprofundeaza</button>
         </div>
     </div>
+    <audio id="sound-for-deep">
+        <source src="assets/audio/SoundsHomepage/Aprofunda.mp3">
+        <source src="assets/audio/SoundsHomepage/Aprofunda.ogg">
+    </audio>
+
+
       <div class="row">
-        <div class="col-lg-offset-4 col-lg-4 customDiv" >
+        <div class="col-lg-offset-4 col-lg-4 customDiv" onmouseover="playClipPlay()">
             <button class="btn btn-warning btn-xlarge customButton" type="button" data-toggle="modal" data-target="#myModal">Hai sa ne jucam!</button>
         </div>
         <!-- Modal -->
@@ -67,6 +79,10 @@
   </div>
 </div>
     </div>
+    <audio id="sound-for-play">
+        <source src="assets/audio/SoundsHomepage/Joc.mp3">
+        <source src="assets/audio/SoundsHomepage/Joc.ogg">
+    </audio>
 
        
 </div>
