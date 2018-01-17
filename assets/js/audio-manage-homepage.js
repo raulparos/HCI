@@ -64,4 +64,22 @@ function playClipPlay() {
         }
     }
 }
+function playInfoAirplanes1() {
+    if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1)) {
+        if (document.all)
+        {
+            document.all.sound.src = "../audio/Lectii Avioane/Prima Lectie/Parte 1 prima lectie.mp3";
+        }
+    }
+
+    else {
+        {
+            var audio = document.getElementById("sound-for-learn");
+            audio.play();
+        }
+    }
+}
+
+
+
 
