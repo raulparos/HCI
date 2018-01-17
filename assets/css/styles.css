@@ -4,6 +4,11 @@ html, body {
     cursor: url(../images/plane.png), auto;
 }
 
+html:hover, body:hover, a:hover, .btn {
+    cursor: url(../images/plane.png), auto;
+}
+
+
 .vertical-align {
     display: flex;
     align-items: center;
@@ -13,14 +18,11 @@ html, body {
 .align-middle {
 	display: table-cell;
 	vertical-align: middle;
-	margin-right: 20%;
-	margin-left: 44%;
-	margin-top: 8%;
-	margin-bottom: 5%;
+    margin: 8% 20% 5% 44%;
 }
-.row{
+.indexRow {
 	margin-bottom: 5%;
-	margin-top: 10%;
+	margin-top: 5%;
 	height: 15%;
 }
 .customButton{
@@ -115,6 +117,52 @@ body {
     color:white;
 }
 
-.video-category-title {
+.categoryA {
+    color: #fff;
+}
+
+.categoryA:hover {
+    color: #fff;
+}
+
+.video-categories {
     font-family: 'Leckerli One', cursive;
+}
+
+.video-category-title {
+    font-size: 44pt;
+    text-align: center;
+    color: #fff;
+}
+
+.video-box {
+    margin-top: 2%;
+    padding: 15px;
+}
+
+.video-box-content {
+    padding: 10px;
+    background: #1E546B;
+    color: #fff;
+    font-size: 20pt;
+}
+
+.customButton {
+    height: 130px;
+    border: 3px solid #E38D13;
+    font-family: 'Leckerli One', cursive;
+    color: #fff;
+    font-size: 36pt;
+}
+
+.home-button-learn {
+    background-image: url(../images/button1.png);
+}
+
+.home-button-quiz {
+    background-image: url(../images/button2.png);
+}
+
+.home-button-play{
+    background-image: url(../images/button3.png);
 }
