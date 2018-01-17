@@ -14,20 +14,37 @@
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
     <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+
+    <script src="assets/js/audio-manage-categories.js"></script>
+
 </head>
 <body>
 <div class="container-fluid categories">
     <a class="categoryA" href="categories/category-hot-air-balloons.html">
-        <div class="col-lg-4 category category-hot-air-balloon">
+        <div class="col-lg-4 category category-hot-air-balloon" onmouseover="playClipCategorieBaloane()">
             <div class="category-name category-name-hot-air-balloons">Baloane cu aer cald</div>
         </div>
+        <audio id="sound-for-baloane">
+            <source src="assets/audio/Categorii/Categorie-baloane.mp3">
+            <!--<source src="assets/audio/SoundsHomepage/Invatare.ogg">-->
+        </audio>
     </a>
-    <div class="col-lg-4 category category-planes">
+
+    <div class="col-lg-4 category category-planes" onmouseover="playClipCategorieAvioane()">
         <div class="category-name category-name-planes">Avioane</div>
     </div>
-    <div class="col-lg-4 category category-rockets">
+    <audio id="sound-for-avioane">
+        <source src="assets/audio/Categorii/Categorie-avioane.mp3">
+        <!--<source src="assets/audio/SoundsHomepage/Invatare.ogg">-->
+    </audio>
+
+    <div class="col-lg-4 category category-rockets" onmouseover="playClipCategorieRachete()">
         <div class="category-name category-name-rockets">Rachete spatiale</div>
     </div>
+    <audio id="sound-for-rachete">
+        <source src="assets/audio/Categorii/Categorie-rachete.mp3">
+        <!--<source src="assets/audio/SoundsHomepage/Invatare.ogg">-->
+    </audio>
 </div>
 </body>
 </html>
