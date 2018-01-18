@@ -64,21 +64,54 @@ function playClipPlay() {
         }
     }
 }
-function playInfoAirplanes1() {
+function playClipPuzzleBalon() {
     if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1)) {
         if (document.all)
         {
-            document.all.sound.src = "../audio/Lectii Avioane/Prima Lectie/Parte 1 prima lectie.mp3";
+            document.all.sound.src = "../audio/ModalPuzzles/puzzle-balon.mp3";
         }
     }
 
     else {
         {
-            var audio = document.getElementById("sound-for-learn");
+            var audio = document.getElementById("sound-for-modal-1");
             audio.play();
         }
     }
 }
+function playClipPuzzleAvion() {
+    if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1)) {
+        if (document.all)
+        {
+            document.all.sound.src = "../audio/ModalPuzzles/puzzle-avion.mp3";
+        }
+    }
+
+    else {
+        {
+            var audio = document.getElementById("sound-for-modal-2");
+            audio.play();
+        }
+    }
+}
+
+
+function playClipPuzzleRacheta() {
+    if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1)) {
+        if (document.all)
+        {
+            document.all.sound.src = "../audio/ModalPuzzles/puzzle-racheta.mp3";
+        }
+    }
+
+    else {
+        {
+            var audio = document.getElementById("sound-for-modal-3");
+            audio.play();
+        }
+    }
+}
+
 
 
 

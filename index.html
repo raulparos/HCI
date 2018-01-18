@@ -60,27 +60,41 @@
                         <h4 class="modal-title" id="myModalLabel">Selecteaza un puzzle!</h4>
                     </div>
                     <div class="modal-body">
-                        <div class="row customPlanes">
+                        <div class="row customPlanes" onmouseover="playClipPuzzleBalon()">
                             <a href="assets/puzzles/puzzle-balon.html" type="submit"
                                style="border: 0; background: transparent">
                                 <img src="assets/images/balon_puzzle.jpg" width="90" height="50" alt="submit"/>
                                 Puzzel-ul cu balon.
                             </a>
                         </div>
-                        <div class="row customPlanes">
+                        <audio id="sound-for-modal-1">
+                            <source src="assets/audio/ModalPuzzles/puzzle-balon.mp3">
+                            <!--<source src="assets/audio/SoundsHomepage/Aprofunda.ogg">-->
+                        </audio>
+
+                        <div class="row customPlanes" onmouseover="playClipPuzzleAvion()">
                             <a href="assets/puzzles/puzzle-avion.html" type="submit"
                                style="border: 0; background: transparent">
                                 <img src="assets/images/plane1.jpg" width="90" height="50" alt="submit"/>
                                 Puzzelul cu avionul.
                             </a>
                         </div>
-                        <div class="row customPlanes">
+                        <audio id="sound-for-modal-2">
+                            <source src="assets/audio/ModalPuzzles/puzzle-avion.mp3">
+                            <!--<source src="assets/audio/SoundsHomepage/Aprofunda.ogg">-->
+                        </audio>
+
+                        <div class="row customPlanes" onmouseover="playClipPuzzleRacheta()">
                             <a href="assets/puzzles/puzzle-racheta.html" type="submit"
                                style="border: 0; background: transparent">
                                 <img src="assets/images/rachetaEditata.jpg" width="90" height="50" alt="submit"/>
                                 Puzzelul cu racheta.
                             </a>
                         </div>
+                        <audio id="sound-for-modal-3">
+                            <source src="assets/audio/ModalPuzzles/puzzle-racheta.mp3">
+                            <!--<source src="assets/audio/SoundsHomepage/Aprofunda.ogg">-->
+                        </audio>
 
                     </div>
                     <div class="modal-footer">
